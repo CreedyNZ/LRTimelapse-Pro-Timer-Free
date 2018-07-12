@@ -15,7 +15,7 @@
 //#include "LCD_Keypad_Reader.h"      // credits to: http://www.hellonull.com/?p=282
 #include "EEPROMConfig.h"           // Klaus Heiss, www.elite.at
 
-const String CAPTION = "Pro-Timer 0.92";
+const String CAPTION = "Pro-Timer 0.92k";
 
 //LCD_Keypad_Reader keypad;
 #include <Keypad.h>
@@ -42,7 +42,7 @@ const char DOWN = '8';
 const char RIGHT = '6';
 const char STAR = '*';
 const int Onboard_LED = 13;
-const int BACK_LIGHT  = 10;
+const int BACK_LIGHT  = 9;
 
 const float RELEASE_TIME_DEFAULT = 0.1;			// default shutter release time for camera
 const float MIN_DARK_TIME = 0.5;
